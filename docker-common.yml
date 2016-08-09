@@ -4,3 +4,5 @@ services:
 
   phpci:
     build: ./images
+
+  mod:
