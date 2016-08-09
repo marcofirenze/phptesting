@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  phpci:
+    container_name: phpci-app
+    extends:
+      file: ./docker-common.yml
+      service: phpci
